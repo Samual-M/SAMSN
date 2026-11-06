@@ -6,13 +6,13 @@ SAMSN is a private, offline-first AI chat app for Linux with the look and feel o
 
 ## Download
 
-Download the newest **`SAMSNV*.deb`** file from the list of files at the top of this page (currently [SAMSNV0.3.42.deb](https://github.com/Samual-M/SAMSN/raw/main/SAMSNV0.3.42.deb)), then install it:
+Download the newest **`SAMSNV*.deb`** file from the list of files at the top of this page (currently [SAMSNV0.3.43.deb](https://github.com/Samual-M/SAMSN/raw/main/SAMSNV0.3.43.deb)), then install it:
 
 ```
-sudo apt install ./SAMSNV0.3.42.deb
+sudo apt install ./SAMSNV0.3.43.deb
 ```
 
-Open **SAMSN** from your apps menu. After that, **Help › Check for Updates** inside the app finds and installs new versions from this repository for you.
+Open **SAMSN** from your apps menu. To update later, download the newest .deb from here and install it the same way; opening the new version closes the old one automatically.
 
 Needs Node.js 18 or newer (`sudo apt install nodejs`) and a Chromium-based browser (Chromium, Chrome, Edge or Brave), which SAMSN uses for its window.
 
@@ -27,7 +27,7 @@ Needs Node.js 18 or newer (`sudo apt install nodejs`) and a Chromium-based brows
 
 ## Privacy
 
-No accounts, tracking, analytics or ads. Everything stays on your computer. SAMSN only connects to the AI services you add yourself, and asks before anything else (model search, the update check). The server listens on 127.0.0.1 only.
+No accounts, tracking, analytics or ads. Everything stays on your computer. SAMSN only connects to the AI services you add yourself, and asks before anything else (model search, the online plug-in list). It never checks for updates by itself. The server listens on 127.0.0.1 only.
 
 ## Note on the artwork
 
